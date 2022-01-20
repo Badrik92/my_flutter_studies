@@ -1,0 +1,12 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false 
+    implicit-dynamic: false
+
+
+linter:
+  rules:
+    # - prefer_const_constructors
+    # - prefer_const_declarations
